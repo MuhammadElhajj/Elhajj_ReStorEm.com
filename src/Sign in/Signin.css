@@ -1,0 +1,155 @@
+.SignIn {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #948989, #7499e7);
+}
+/* background: linear-gradient(135deg, #4203a9, #627492); */
+
+.SigninCountainer {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   padding: 10px;
+    border-radius: 4px;
+    width: 300px;
+    border: 1px solid #eee;
+    margin: 20px;
+}
+
+.inputSignin {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    /* margin: 15px 0 0px !important; */
+    padding: 7px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+    padding: 7px 20px 7px 40px;
+}
+
+.inputSignin::placeholder {
+    color: #fff;
+}
+.inputSignin:focus::placeholder {
+    opacity: 0;
+}
+
+.inputSignin::content {
+    color: #fff;
+}
+.register {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.LOGIN-photo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 calc(50% - 30px);
+    margin-bottom: 0px;
+
+}
+.signin-h1 {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.signin-h5 {
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+}
+
+.LogInButton {
+    width: 100%;
+    margin: 10px 0;
+    border: 0;
+    outline: 0;
+    padding: 8px;
+
+    background: #2f54d0;
+    color: #fff;
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.google ,.facebook ,.Twitter {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+
+.Visitor-signin {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.Visitor-signin:hover {
+    text-decoration: underline;
+}
+.Remind-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Remind-part-form input {
+margin-right: 10px;
+/* background-color: #000; */
+}
+/* 
+.Remind-part-form input:checked {
+color: #fff;
+background-color: black;
+} */
+
+.Remind-part-form label {
+    color: #fff;
+    font-size: 13px;
+}
+
+.Forget-Password {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.Forget-Password:hover {
+    text-decoration: underline;
+}
+
+.or-LOGIN {
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+.email-part ,
+.password-part {
+    position: relative;
+}
+
+.emailIcon ,
+.passwordlIcon
+ {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    color: #fff;
+    font-size: 20px;
+    transform: translateY(-50%);
+}

@@ -1,0 +1,242 @@
+.Home {
+    height: 100vh;
+    padding-top: 250px;
+    background-image: url(../images/94df1e6b7c4a0fb034ed0e5a081ee286.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 600px;
+    margin-top: -8px;
+}
+
+.CardContainer {
+    /* height: 350px; */
+    padding: 10px;
+    width: 100%;
+    /* margin: 50px 0; */
+
+}
+
+.PhotoContainer {
+    width: 100%;
+    margin: 0 !important;
+}
+
+.CardContainer-secont {
+    /* height: 300px; */
+    background-color: rgb(211 227 253);;
+    margin: 0 !important;
+
+}
+
+.CardContainer-secont h1 {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.Home-container {
+    margin: 0 !important;
+}
+
+.PhotoContainer .Photo {
+    position: relative;
+    padding: 5px;
+    margin: 0 !important;
+    width: 50%;
+    height: 120px;
+
+}
+
+.Linkogproduc {
+    text-decoration: none;
+}
+
+.Linkogproduc:hover {
+    text-decoration: underline;
+}
+
+.PhotoContainer .Photo img {
+    width: 100%;
+    height: 85%;
+}
+
+
+.footer1 {
+    background-color: #232f3e;
+}
+
+.footer-second {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.footer1 h3 {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #ddd;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.Footer-logo {
+    width: 50px;
+}
+
+.footer-third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* ! ................ */
+@media screen and (min-width : 990px) and (max-width :1536px) {}
+
+@media screen and (min-width : 240px) and (max-width :989px) {}
+
+/* ! ................ */
+@media screen and (min-width : 1280px) and (max-width : 1536px) {
+    .CardContainer {
+        height: 310px;
+    }
+
+    .Linkogproduc {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width : 1024px) and (max-width : 1279px) {
+    .CardContainer-secont h1 {
+        font-size: 16px;
+    }
+
+    .PhotoContainer .Photo {
+        height: 110px;
+    }
+
+    .Linkogproduc {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width : 990px) and (max-width : 1023px) {
+    .CardContainer-secont h1 {
+        font-size: 15px;
+    }
+
+    .PhotoContainer .Photo {
+        height: 100px;
+    }
+
+    .Linkogproduc {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width : 769px) and (max-width : 989px) {
+
+    .CardContainer-secont h1 {
+        font-size: 16px;
+    }
+
+    .Linkogproduc {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width : 640px) and (max-width : 768px) {
+    .CardContainer-secont h1 {
+        font-size: 15px;
+    }
+
+    .Linkogproduc {
+        font-size: 12px;
+    }
+
+
+}
+
+@media screen and (min-width : 568px) and (max-width :639px) {
+
+    .Linkogproduc {
+        font-size: 13px;
+    }
+
+    .CardContainer-secont h1 {
+        font-size: 15px;
+    }
+
+   
+
+
+
+}
+
+@media screen and (min-width : 480px) and (max-width :567px) {
+
+    .Linkogproduc {
+
+        font-size: 13px;
+    }
+
+    .CardContainer-secont h1 {
+        font-size: 15px;
+    }
+
+   
+}
+
+@media screen and (min-width : 320px) and (max-width :479px) {
+    .Linkogproduc {
+
+        font-size: 10px;
+    }
+
+    .CardContainer-secont h1 {
+        font-size: 13px;
+    }
+    .CardContainer-secont h1 {
+      
+        padding: 5px 5px 0;
+    }
+    .PhotoContainer .Photo {
+        
+        height: 80px;
+    
+            padding: 5px 5px 15px;
+    }
+
+
+}
+
+@media screen and (min-width : 240px) and (max-width :319px) {
+    .Linkogproduc {
+
+        font-size: 13px;
+    }
+
+    .CardContainer-secont h1 {
+        font-size: 13px;
+    }
+
+    
+}
+@media screen and (min-width : 240px) and (max-width :420px) {
+    
+    .footer1 h3 {
+        
+        font-size: 14px;
+    }
+    .footer-link {
+       
+        font-size: 10px;
+    }
+    
+}

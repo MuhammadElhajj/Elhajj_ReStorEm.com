@@ -1,0 +1,32 @@
+.activeStars {
+    /* color: #fff700; */
+    color: #ff9600;
+}
+
+.unActiveStars {
+    color: #000;
+}
+
+.Star-rating {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+position: absolute;
+bottom: 50px;
+left: 5px ;
+
+    
+}
+.Star-rating h2 {
+    padding: 0;
+    margin: 0;
+    margin-left: 14px;
+    font-weight: normal;
+    font-size: 18px;
+}
+.Star-rating h2 span {
+     
+    margin-left: 4px;
+    font-weight: normal;
+    font-size: 12px;
+}

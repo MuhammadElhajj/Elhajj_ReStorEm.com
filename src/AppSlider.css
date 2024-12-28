@@ -1,0 +1,176 @@
+.AppSlider .container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 30px;
+}
+
+.AppSlider {
+    width: 85%;
+    margin: 15px auto;
+}
+.slick-prev:before ,
+.slick-next:before {
+    color: blue;
+}
+.AppSliderCard {
+    width: 150px;
+    background-color: #d3e3fd;
+    padding: 5px;
+    max-height: 270px;
+    border-radius: 10px;
+}
+
+.AppSliderCard img {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+.AppSliderCard h3 {
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.AppSliderCard p {
+    font-size: 14px;
+}
+
+.Download-link {
+    font-size: 12px;
+    text-align: right;
+    margin-left: 60%;
+    text-decoration: none;
+}
+.Download-link:hover {
+    text-decoration: underline;
+}
+
+
+/* ! ................ */
+@media screen and (min-width : 990px) and (max-width :1536px) {
+    
+   
+}
+
+@media screen and (min-width : 240px) and (max-width :989px) {
+
+   
+}
+/* ! ................ */
+@media screen and (min-width : 1280px) and (max-width : 1536px) {
+    
+}
+
+@media screen and (min-width : 1024px) and (max-width : 1279px) {
+    .AppSliderCard {
+        width: 130px;
+    }
+}
+.AppSliderCard p {
+    font-size: 13px;
+}
+
+@media screen and (min-width : 990px) and (max-width : 1023px) {
+
+}
+
+@media screen and (min-width : 769px) and (max-width : 989px) {
+   
+    .AppSliderCard {
+        width: 125px;
+       
+    }
+}
+
+@media screen and (min-width : 640px) and (max-width : 768px) {
+
+    .AppSliderCard p {
+        font-size: 11px;
+    }
+    .AppSliderCard {
+        width: 125px;
+       
+    }
+    .AppSliderCard h3 {
+        font-size: 17px;
+        padding-top: 4px;
+    }
+}
+
+@media screen and (min-width : 568px) and (max-width :639px) {
+    .AppSliderCard p {
+        font-size: 11px;
+    }
+    .AppSliderCard {
+        width: 125px;
+       
+    }
+    .AppSliderCard h3 {
+        font-size: 17px;
+        padding-top: 4px;
+    }
+  
+
+    
+    
+}
+
+@media screen and (min-width : 480px) and (max-width :567px) {
+    .AppSliderCard p {
+        font-size: 10px;
+    }
+    .AppSliderCard {
+        width: 120px;
+       
+    }
+    .AppSliderCard h3 {
+        font-size: 15px;
+        padding-top: 3px;
+    }
+  
+}
+
+@media screen and (min-width : 320px) and (max-width :479px) {
+    .AppSliderCard p {
+        font-size: 8px;
+    }
+    .AppSliderCard {
+        width: 80px;
+       
+    }
+    .AppSliderCard h3 {
+        font-size: 13px;
+        padding-top: 4px;
+    }
+    .Download-link {
+        font-size: 10px;
+        margin-left: 0;
+
+   
+    }
+   
+}
+
+@media screen and (min-width : 240px) and (max-width :319px) {
+    .AppSliderCard p {
+        font-size: 11px;
+    }
+    .AppSliderCard {
+        width: 125px;
+       
+    }
+    .AppSliderCard h3 {
+        font-size: 17px;
+        padding-top: 4px;
+    }
+    .Download-link {
+        font-size: 10px;
+        margin-left: 50%;
+   
+    }
+}
+
