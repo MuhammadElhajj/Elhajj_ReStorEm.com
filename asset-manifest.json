@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Elhajj_ReStorEm.com/static/css/main.4a274bec.css",
-    "main.js": "/Elhajj_ReStorEm.com/static/js/main.db0d40b7.js",
+    "main.css": "/Elhajj_ReStorEm.com/static/css/main.d537df3f.css",
+    "main.js": "/Elhajj_ReStorEm.com/static/js/main.91d08434.js",
     "static/media/fashion04.jpg": "/Elhajj_ReStorEm.com/static/media/fashion04.e7635566862878bf0d00.jpg",
     "static/media/iphone3.jpg": "/Elhajj_ReStorEm.com/static/media/iphone3.de30d6dc5266be1750e8.jpg",
     "static/media/shoes01 copy.jpg": "/Elhajj_ReStorEm.com/static/media/shoes01 copy.8ef9b0651553af8dd5de.jpg",
@@ -31,11 +31,11 @@
     "static/media/slick.ttf": "/Elhajj_ReStorEm.com/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Elhajj_ReStorEm.com/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Elhajj_ReStorEm.com/index.html",
-    "main.4a274bec.css.map": "/Elhajj_ReStorEm.com/static/css/main.4a274bec.css.map",
-    "main.db0d40b7.js.map": "/Elhajj_ReStorEm.com/static/js/main.db0d40b7.js.map"
+    "main.d537df3f.css.map": "/Elhajj_ReStorEm.com/static/css/main.d537df3f.css.map",
+    "main.91d08434.js.map": "/Elhajj_ReStorEm.com/static/js/main.91d08434.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a274bec.css",
-    "static/js/main.db0d40b7.js"
+    "static/css/main.d537df3f.css",
+    "static/js/main.91d08434.js"
   ]
 }
