@@ -47,7 +47,8 @@ function Home() {
   return (
     <div className='Home'>
       
-      <div className='row Home-container'>
+      {/* <div className='row Home-container'> */}
+      <div className='Home-container'>
         {
           CardInfo.map(item => <CardContainer header={item.header} child={item.Children}  />)
         }

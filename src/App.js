@@ -63,12 +63,6 @@ localStorage.getItem("modeLightDark")
           <h3><FaUser className="Sidebar-FaUser" /><span>{signed && visitUser ? 'Hello Visitor' : "Hello , Sign in"}</span></h3>
         </div>
         <div>
-          {/* <h3 className="LogOut" onClick={
-            () => {
-            setSigned(prev => !prev)
-            setStyleSidebar(-300)}
-          }
-            >Log out</h3> */}
         </div>
         {
           SidebarContent.map(items => <div className="Sidebar-divs">
@@ -145,8 +139,14 @@ localStorage.getItem("modeLightDark")
               <div className="emptyNavDiv"></div>
 
             </nav>
+            
             {
-              showSearchMobile && <div className="Nav-search"><input type="search" placeholder="Search for product" /><h3 onClick={() => setShowSearchMobile(prev => !prev)}>Close</h3></div>
+              showSearchMobile && <div className="Nav-search">
+                <h2 className='Search__Panel__h2'>Search Panel</h2>
+                <input type="search" placeholder="Search for product" />
+              <h3>Search</h3>
+              
+              <h3 onClick={() => setShowSearchMobile(prev => !prev)}>Close</h3></div>
             }
             </div>
 

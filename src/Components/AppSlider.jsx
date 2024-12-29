@@ -20,14 +20,14 @@ function AppSlider() {
     dots: false,
     infinite: false,
     speed: 500,
-    slidesToShow: 7,
+    slidesToShow: 9,
     slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
       {
         breakpoint: 1280,
         settings: {
-          slidesToShow: 6,
+          slidesToShow: 7,
           slidesToScroll: 1,
           infinite: true
         }
@@ -35,7 +35,7 @@ function AppSlider() {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 5,
+          slidesToShow: 6,
           slidesToScroll: 1,
           infinite: true,
         }
@@ -43,7 +43,7 @@ function AppSlider() {
       {
         breakpoint: 769,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 5,
           slidesToScroll: 1,
           initialSlide: 2
         }

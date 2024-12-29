@@ -3,7 +3,8 @@ import React from 'react'
 
 function CardContainer(props) {
   return (
-    <div className='col col-6 col-lg-3 col-md-4 col-sm-6 col-xs-6 CardContainer'>
+    // <div className='col col-6 col-lg-3 col-md-4 col-sm-6 col-xs-6 CardContainer'>
+    <div className='CardContainer'>
     <div className='CardContainer-secont'>
       <h1>{props.header}</h1>
       <div className='row PhotoContainer'>

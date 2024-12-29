@@ -7,7 +7,7 @@ function AppSliderCard(props) {
       <img src={props.src} alt={props.alt} />
       <h3>{props.name}</h3>
       <p>{props.p}</p>
-<a href='#' className='Download-link'>Dounload</a>
+<a href='#' className='Download-link'>Download</a>
     </div>
   )
 }
